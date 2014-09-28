@@ -7,7 +7,7 @@ protocol AddItemViewControllerDelegate{
 }
 
 class AddItemViewController: UITableViewController{
-    var delegate: MasterViewController
+    var delegate: AddItemViewControllerDelegate
 
     required init(coder aDecoder: NSCoder) {
         delegate = MasterViewController()
