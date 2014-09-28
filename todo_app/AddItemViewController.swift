@@ -13,7 +13,6 @@ class AddItemViewController: UITableViewController{
         delegate = MasterViewController()
         super.init(coder: aDecoder)
     }
-
     
     @IBOutlet weak var textLabel: UITextField!
     
@@ -26,6 +25,5 @@ class AddItemViewController: UITableViewController{
         println("clickedCancelButton")
         self.delegate.addItemViewControllerDidCancel(self)
     }
-    
     
 }
